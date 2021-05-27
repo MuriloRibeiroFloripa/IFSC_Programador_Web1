@@ -6,23 +6,33 @@ p{
 	text-align: justify;
 }
 
-/* com jogo da velha posso colocar essecodigo em qualquer tag html colocando id="centralizado"*/
+/* 
+com jogo da velha posso colocar essecodigo em qualquer tag html colocando id="centralizado"
+*/
 #centralizado{
 	text-align: center;
 }
 
-/*criar uma regra quem tiver essa regra vai ficar com fundo vermelho
-chamada de classe neste caso funciona ´para qualquer elemento*/
+/*
+criar uma regra quem tiver essa regra vai ficar com fundo vermelho
+chamada de classe neste caso funciona ´para qualquer elemento
+*/
 .vermelho{
 	background: red;
 }
 
-/*Neste caso fica funcionando apenas para paragrafos a class*/
+/*
+Neste caso fica funcionando apenas para paragrafos a class
+*/
 p.vermelho{
 	background: red;
 }
 
-/*agrupando elementos*/
+/*
+agrupando elementos
+regra que sera aplicada a mais de um celetor
+ou seja mais de uma tag html
+*/
 h3,h4,h5{
 	text-align: center;
 }
