@@ -2,6 +2,19 @@
 Comentario css
 */
 
+/*formatando as Div, para formatar as divisões*/
+.cabecalho{
+	text-align: center;
+}
+.conteudo{
+	background: coral;
+}
+
+.rodape{
+	background: aquamarine;
+	font: 10px Arial;
+
+}
 p{
 	text-align: justify;
 }
